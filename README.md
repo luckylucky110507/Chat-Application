@@ -28,6 +28,9 @@ This is the chat application. It provides users with a simple and responsive UI 
 
 📱 Mobile-first design
 
+OUTPUT
+<img width="1831" height="842" alt="Image" src="https://github.com/user-attachments/assets/c19458f3-8b06-499d-b542-4a9527e1154c" />
+
 🛠️ Tech Stack
 
 HTML5 – Page structure
