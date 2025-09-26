@@ -54,8 +54,8 @@ frontend-chat-app/
 
 Clone the repository
 https://github.com/luckylucky110507/Chat-Application.git
-cd chat-application
 
+cd chat-application
 
 
 Install dependencies
