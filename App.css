@@ -1,0 +1,138 @@
+/* Overall page */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f1f1f1;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+/* Chat box */
+.chat-box {
+  width: 100%;
+  max-width: 500px; /* for laptops/desktops */
+  height: 90vh;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.chat-header {
+  background: #2563eb;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Messages area */
+.chat-messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Message bubbles */
+.message {
+  max-width: 75%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.message.bot {
+  align-self: flex-start;
+  background: #e5e5e5;
+  color: #333;
+  border-bottom-left-radius: 5px;
+}
+
+.message.user {
+  align-self: flex-end;
+  background: #2563eb;
+  color: #fff;
+  border-bottom-right-radius: 5px;
+}
+
+/* Input area */
+.chat-input-area {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  gap: 10px;
+}
+
+.chat-input-area input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.chat-input-area button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #2563eb;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.chat-input-area button:hover {
+  background: #1e4ed8;
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 600px) {
+  .chat-box {
+    height: 100vh;      /* full screen on mobile */
+    max-width: 100%;    /* take full width */
+    border-radius: 0;   /* remove rounded corners */
+  }
+
+  .chat-header {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .message {
+    font-size: 13px;
+    max-width: 85%;
+  }
+
+  .chat-input-area input {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .chat-input-area button {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+}
+
+/* 💻 Larger screens */
+@media (min-width: 1024px) {
+  .chat-box {
+    max-width: 600px; /* wider chat box for laptops */
+  }
+
+  .message {
+    font-size: 15px;
+  }
+}
