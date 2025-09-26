@@ -11,7 +11,6 @@ DURATION: 6 WEEKS
 MENTOR: NEELA SANTOSH
 CHAT APPLICATION - TASK 2 (CODTECH INTERNSHIP)
 Project Overview
-📌 Overview
 
 This is the chat application. It provides users with a simple and responsive UI to exchange messages in real time. The frontend is built with modern web technologies and is designed to work seamlessly with a backend chat server.
 
@@ -54,7 +53,8 @@ frontend-chat-app/
 ⚙️ Installation & Setup
 
 Clone the repository
-
+https://github.com/luckylucky110507/Chat-Application.git
+cd chat-application
 
 
 
