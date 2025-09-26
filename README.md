@@ -72,8 +72,8 @@ Open in browser:
 
 http://localhost:3000
 
-📸 UI Preview
-
+📸 output 
+https://github.com/luckylucky110507/Chat-Application/issues/1#issue-3457794990
 
 
 🎯 Future Enhancements
